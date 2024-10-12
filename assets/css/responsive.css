@@ -1,0 +1,1025 @@
+@media only screen and (min-width: 1600px) {
+  .container {
+    max-width: 1325px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+
+ .close-sidebar-btn{
+  display: none;
+ }
+}
+@media only screen and (max-width: 991px) {
+  .mobile-header{
+   display: flex !important;
+  }
+
+  header{
+    width: 320px;
+    top: 0;
+    height: 100vh;
+    z-index: 999;
+    left: -350px;
+    transition: left 0.3s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+  .header-main{
+    flex-direction: column;
+    height: 100vh;
+    justify-content: flex-start;
+  }
+  .menu-area{
+    flex-direction: column;
+    gap: 30px;
+  }
+  .tm-counter-content-wrapper {
+    justify-content: center;
+    gap: 30px;
+  }
+  .line-svg {
+    display: none;
+    }
+    .breakdown-img-area{
+      width: 100%;
+      height: 100%;
+    }
+    .home-hero-card-wrapper {
+      grid-template-columns: repeat(1, 1fr);
+  }
+  .home-hero-card-text-arrow {
+    justify-content: space-between;
+    flex-direction: row;
+    bottom: 0;
+    align-items: end;
+    width: 100%;
+}
+.conversion-rate-content {
+  gap: 91px;
+  flex-direction: column;
+}
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {
+  .line-svg svg{
+    width: 120px;
+  }
+}
+@media only screen and (min-width: 1366px) and (max-width: 1440px) {
+  .line-svg svg{
+    width: 100px;
+  }
+}
+
+/* laptop devices */
+@media only screen and (min-width: 1200px) and (max-width: 1365px) {
+  :root {
+    --text-reg: 16px;
+    --text-reg2: 17px;
+    --text-md: 22px;
+    --text-md2: 26px;
+    --text-lg: 45px;
+    --text-xlg: 63px;
+}
+  .line-svg svg{
+    width: 90px;
+  }
+  .line-svg {
+    margin-bottom: 192px;
+    padding: 0px 10px;
+}
+  .breakdown-img-area img{
+    width: 150px;
+    height: 150px;
+}
+.demo-card-item .demo-card-img-area {
+  height: 486px;
+  width: 100%;
+}
+.our-product-wrapper {
+  gap: 85px;
+}
+}
+
+/* large tablet devices */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* common style 992 start*/
+  :root {
+    --text-reg: 16px;
+    --text-reg2: 17px;
+    --text-md: 22px;
+    --text-md2: 26px;
+    --text-lg: 35px;
+    --text-xlg: 53px;
+}
+.common-padding {
+  padding: 70px 0px;
+}
+.common-heading {
+  font-size: 40px;
+  line-height: 55.92px;
+}
+.mt-80{
+  margin-top: 60px;
+}
+.common-btn {
+  padding: 10px 22px;
+  line-height: 35.36px;
+}
+.book-a-demo-area-2 {
+  padding: 60px;
+  gap: 30px;
+}
+  /* common style 992 end*/
+
+  /* index.html 992 start */
+.home-hero-section {
+  padding: 184px 0px 80px;
+}
+.home-hero-card-text-arrow h3 {
+  line-height: 51.2px;
+}
+.home-hero-card {
+  height: 363px;
+}
+.home-hero-card-wrapper {
+  gap: 18px;
+  margin: 60px 0px 22px;
+}
+.text-col {
+  gap: 26px;
+}
+.img-col-area {
+  height: 545px;
+}
+.book-a-demo-area {
+  height: 385px;
+}
+  /* index.html 992 end */
+
+  /* aboutUs.html 992 start */
+  .about-us-why-choose-section .why-choose-content-wrapper ul li {
+    padding: 14px;
+}
+.team-member-img-area {
+  height: 310px;
+}
+.team-member-name {
+  line-height: 36.48px;
+}
+  /* aboutUs.html 992 end */
+  .form-lower label {
+    font-size: 22px;
+}
+.tm-counter-content-wrapper {
+  justify-content: center;
+  gap: 30px;
+}
+.line-svg svg{
+  width: 70px;
+}
+.line-svg {
+display: none;
+}
+    .breakdown-img-area{
+      width: 100%;
+      height: 100%;
+    }
+.breakdown-img-area img{
+  width: 130px;
+  height: 130px;
+}
+.about-section-mission {
+  padding-bottom: 80px;
+}
+.demo-card-item .demo-card-img-area {
+  height: 446px;
+}
+.demo-card-text h2 {
+  line-height: 48.2px;
+}
+.our-product-wrapper {
+  gap: 65px;
+}
+}
+
+/* medium tablet devices */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+   /* common style 992 start*/
+   :root {
+    --text-reg: 15px;
+    --text-reg2: 17px;
+    --text-md: 22px;
+    --text-md2: 26px;
+    --text-lg: 33px;
+    --text-xlg: 50px;
+}
+.common-padding {
+  padding: 60px 0px;
+}
+.common-heading {
+  font-size: 33px;
+  line-height: 55.92px;
+}
+.mt-80{
+  margin-top: 50px;
+}
+.common-btn {
+  padding: 10px 22px;
+  line-height: 35.36px;
+  font-size: 17px;
+}
+.book-a-demo-area-2 {
+  padding: 60px;
+  gap: 30px;
+}
+.common-para {
+  font-size: 15px;
+  line-height: 25.24px;
+}
+.gap-md-3 {
+  gap: 10px !important;
+}
+.about-section-mission {
+  padding-bottom: 70px;
+}
+  /* common style 992 end*/
+
+  /* index.html 992 start */
+  .home-hero-section {
+    padding: 50px 0px 60px;
+}
+.home-hero-card-text-arrow h3 {
+  line-height: 51.2px;
+}
+.home-hero-card {
+  height: 300px;
+}
+.home-hero-card-wrapper {
+  gap: 18px;
+  margin: 60px 0px 22px;
+}
+.text-col {
+  gap: 16px;
+}
+.img-col-area {
+  height: 477px;
+}
+.book-a-demo-area {
+  height: 300px;
+}
+.footer-logo-area {
+  width: 250px;
+  height: 71px;
+}
+.footer-menu-col {
+  gap: 15px;
+}
+.footer-mail-copywrite {
+  gap: 15px;
+
+}
+.footer-menu-col a {
+  font-size: 16px;
+  line-height: 26.52px;
+}
+  /* index.html 992 end */
+
+  /* aboutUs.html 992 start */
+  .about-us-why-choose-section .why-choose-content-wrapper ul li {
+    padding: 10px;
+}
+.team-member-img-area {
+  height: 310px;
+}
+.team-member-name {
+  line-height: 36.48px;
+}
+.about-us-hero-section .book-a-demo-area p {
+  font-size: 15px;
+}
+.team-member-wrapper {
+  grid-template-columns: repeat(2, 1fr);
+}
+.our-product-section .common-heading {
+  font-size: 32px;
+  line-height: 48.36px;
+}
+  /* aboutUs.html 992 end */
+  .form-lower label {
+    font-size: 22px;
+}
+.tm-counter-content-wrapper {
+  justify-content: center;
+  gap: 30px;
+}
+.line-svg svg{
+  width: 70px;
+}
+.line-svg {
+display: none;
+}
+    .breakdown-img-area{
+      width: 100%;
+      height: 100%;
+    }
+.breakdown-img-area img{
+  width: 130px;
+  height: 130px;
+}
+  .breakdown-img-area img{
+    width: 100px;
+    height: 100px;
+  }
+  .breakdown-text-wrapper h4 {
+    font-size: 24px;
+    line-height: 32.24px;
+}
+.breakdown-text-wrapper p {
+  font-size: 16px;
+  line-height: 26.52px;
+}
+.demo-card-item .demo-card-img-area {
+  height: 396px;
+}
+.demo-card-text h2 {
+  line-height: 40.2px;
+}
+.speck-directly-card-wrapper {
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+}
+.speak-card-item {
+  padding: 30px;
+  gap: 12px;
+}
+
+.our-product-wrapper {
+  gap: 55px;
+}
+}
+
+/* small tablet devices */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+     /* common style 992 start*/
+     :root {
+      --text-reg: 15px;
+      --text-reg2: 16px;
+      --text-md: 18px;
+      --text-md2: 22px;
+      --text-lg: 28px;
+      --text-xlg: 35px;
+  }
+  .common-padding {
+    padding: 50px 0px;
+  }
+  .common-heading {
+    font-size: 28px;
+    line-height: 45.92px;
+  }
+  .mt-80{
+    margin-top: 40px;
+  }
+  .common-btn {
+    padding: 10px 22px;
+    line-height: 35.36px;
+    font-size: 17px;
+  }
+  .book-a-demo-area-2 {
+    padding: 30px;
+    gap: 20px;
+  }
+  .common-para {
+    font-size: 15px;
+    line-height: 25.24px;
+  }
+  .gap-md-3 {
+    gap: 10px !important;
+  }
+  .about-section-mission {
+    padding-bottom: 70px;
+  }
+  .why-choose-content-wrapper {
+    flex-direction: column;
+    gap: 40px;
+}
+  .common-col {
+   width: 100%;
+}
+    /* common style 992 end*/
+  
+    /* index.html 992 start */
+    .home-hero-section {
+      padding: 50px 0px 60px;
+  }
+  .home-hero-card-text-arrow h3 {
+    line-height: 51.2px;
+  }
+  .home-hero-card {
+    height: 300px;
+  }
+  .home-hero-card-wrapper {
+    gap: 18px;
+    margin: 60px 0px 22px;
+  }
+  .text-col {
+    gap: 16px;
+  }
+  .img-col-area {
+    height: 330px;
+  }
+  .book-a-demo-area {
+    height: 300px;
+  }
+  .footer-logo-area {
+    width: 250px;
+    height: 71px;
+  }
+  .footer-menu-col {
+    gap: 15px;
+  }
+  .footer-mail-copywrite {
+    gap: 15px;
+  
+  }
+  .footer-menu-col a {
+    font-size: 16px;
+    line-height: 26.52px;
+  }
+    /* index.html 992 end */
+  
+    /* aboutUs.html 992 start */
+    .about-us-why-choose-section .why-choose-content-wrapper ul li {
+      padding: 10px;
+  }
+  .team-member-img-area {
+    height: 310px;
+  }
+  .team-member-name {
+    line-height: 36.48px;
+  }
+  .about-us-hero-section .book-a-demo-area p {
+    font-size: 15px;
+  }
+  .team-member-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .our-product-section .common-heading {
+    font-size: 28px;
+    line-height: 38.36px;
+  }
+    /* aboutUs.html 992 end */
+    .form-lower label {
+      font-size: 19px;
+  }
+  .tm-counter-content-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+  }
+  .line-svg svg{
+    width: 70px;
+  }
+  .line-svg {
+  display: none;
+  }
+      .breakdown-img-area{
+        width: 100%;
+        height: 100%;
+      }
+  .breakdown-img-area img{
+    width: 130px;
+    height: 130px;
+  }
+    .breakdown-img-area img{
+      width: 100px;
+      height: 100px;
+    }
+    .breakdown-text-wrapper h4 {
+      font-size: 24px;
+      line-height: 32.24px;
+  }
+  .breakdown-text-wrapper p {
+    font-size: 16px;
+    line-height: 26.52px;
+  }
+  .demo-card-item .demo-card-img-area {
+    height: 300px;
+  }
+  .demo-card-text h2 {
+    line-height: 40.2px;
+  }
+  .demo-hero-card-wrapper {
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+.demo-card-text {
+  gap: 15px;
+  bottom: 33px;
+  padding: 0px 28px;
+}
+.third-demo-card-text{
+  flex-direction: column !important;
+}
+.what-customer-say-section{
+  padding: 20px;
+  padding-right: 20px;
+}
+.footer-section {
+  grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  gap: 30px;
+  margin-top: 30px;
+}
+.footer-col{
+  align-items: center;
+}
+.footer-col:nth-child(2){
+  order: 3;
+  grid-column: 1/-1;
+}
+.common-form-space {
+  padding: 35px;
+}
+.tm-checkbox-wrapper {
+  gap: 10px;
+}
+.form-input-wrapper{
+  flex-direction: column;
+}
+.form-input-wrapper .w-50{
+  width: 100% !important;
+}
+.form-lower .form-control {
+  padding: 18px;
+}
+.speck-directly-card-wrapper {
+  grid-template-columns: repeat(1, 1fr);
+  gap: 15px;
+}
+.countdown-section {
+  padding: 40px 0px;
+}
+.common-conversion-col-1 {
+  padding: 31px;
+  height: 527px;
+}
+.conversion-img-area img{
+  height: 100%;
+  width: 100%;
+}
+.conversion-rate-content {
+  gap: 40px;
+  flex-direction: column;
+}
+.conversion-rates-text .common-heading,
+.conversion-rates-text .common-para{
+  text-align: center;
+}
+.rates-des {
+  margin-top: 22px;
+  gap: 32px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.engagement-breakdown-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+}
+.our-product-wrapper .why-choose-content-wrapper:nth-child(even) {
+  flex-direction: column;
+}
+.our-product-wrapper {
+  gap: 45px;
+}
+}
+
+/* large mobile devices */
+@media only screen and (min-width: 480px) and (max-width: 575px) {
+     /* common style 992 start*/
+     :root {
+      --text-reg: 15px;
+      --text-reg2: 17px;
+      --text-md: 22px;
+      --text-md2: 26px;
+      --text-lg: 33px;
+      --text-xlg: 50px;
+  }
+  .common-padding {
+    padding: 60px 0px;
+  }
+  .common-heading {
+    font-size: 35px;
+    line-height: 55.92px;
+  }
+  .mt-80{
+    margin-top: 50px;
+  }
+  .common-btn {
+    padding: 10px 22px;
+    line-height: 35.36px;
+    font-size: 17px;
+  }
+  .book-a-demo-area-2 {
+    padding: 60px;
+    gap: 30px;
+  }
+  .common-para {
+    font-size: 15px;
+    line-height: 25.24px;
+  }
+  .gap-md-3 {
+    gap: 10px !important;
+  }
+  .about-section-mission {
+    padding-bottom: 70px;
+  }
+    /* common style 992 end*/
+  
+    /* index.html 992 start */
+    .home-hero-section {
+      padding: 50px 0px 60px;
+  }
+  .home-hero-card-text-arrow h3 {
+    line-height: 51.2px;
+  }
+  .home-hero-card {
+    height: 300px;
+  }
+  .home-hero-card-wrapper {
+    gap: 18px;
+    margin: 60px 0px 22px;
+  }
+  .text-col {
+    gap: 16px;
+  }
+  .img-col-area {
+    height: 477px;
+  }
+  .book-a-demo-area {
+    height: 300px;
+  }
+  .footer-logo-area {
+    width: 250px;
+    height: 71px;
+  }
+  .footer-menu-col {
+    gap: 15px;
+  }
+  .footer-mail-copywrite {
+    gap: 15px;
+  
+  }
+  .footer-menu-col a {
+    font-size: 16px;
+    line-height: 26.52px;
+  }
+    /* index.html 992 end */
+  
+    /* aboutUs.html 992 start */
+    .about-us-why-choose-section .why-choose-content-wrapper ul li {
+      padding: 10px;
+  }
+  .team-member-img-area {
+    height: 310px;
+  }
+  .team-member-name {
+    line-height: 36.48px;
+  }
+  .about-us-hero-section .book-a-demo-area p {
+    font-size: 15px;
+  }
+  .team-member-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .our-product-section .common-heading {
+    font-size: 32px;
+    line-height: 48.36px;
+  }
+    /* aboutUs.html 992 end */
+    .form-lower label {
+      font-size: 22px;
+  }
+  .tm-counter-content-wrapper {
+    justify-content: center;
+    gap: 30px;
+  }
+  .line-svg svg{
+    width: 70px;
+  }
+  .line-svg {
+  display: none;
+  }
+      .breakdown-img-area{
+        width: 100%;
+        height: 100%;
+      }
+  .breakdown-img-area img{
+    width: 130px;
+    height: 130px;
+  }
+    .breakdown-img-area img{
+      width: 100px;
+      height: 100px;
+    }
+    .breakdown-text-wrapper h4 {
+      font-size: 24px;
+      line-height: 32.24px;
+  }
+  .breakdown-text-wrapper p {
+    font-size: 16px;
+    line-height: 26.52px;
+  }
+}
+
+/* mobile devices */
+@media only screen and (min-width: 375px) and (max-width: 479px) {
+}
+
+/* extra small devices */
+@media (max-width: 575px) {
+  /* common style 992 start*/
+  :root {
+    --text-reg: 14px;
+    --text-reg2: 15px;
+    --text-md: 16px;
+    --text-md2: 19px;
+    --text-lg: 20px;
+    --text-xlg: 25px;
+}
+.common-padding {
+  padding: 40px 0px;
+}
+.common-heading {
+  font-size: 19px;
+  line-height: 25px;
+}
+.mt-80{
+  margin-top: 30px;
+}
+.common-btn {
+  padding: 8px 16px;
+  line-height: normal;
+  font-size: 14px;
+}
+.book-a-demo-area-2 {
+  padding: 20px;
+  gap: 10px;
+  border-radius: 12px;
+}
+.common-para {
+  font-size: 14px;
+  line-height: normal;
+}
+.gap-md-3 {
+  gap: 10px !important;
+}
+.about-section-mission {
+  padding-bottom: 70px;
+}
+.why-choose-content-wrapper {
+  flex-direction: column;
+  gap: 20px;
+}
+.our-product-wrapper .why-choose-content-wrapper:nth-child(even) {
+  flex-direction: column;
+}
+.our-product-wrapper {
+  gap: 35px;
+}
+.common-col {
+ width: 100%;
+}
+  /* common style 992 end*/
+
+  /* index.html 992 start */
+  .home-hero-card-text-arrow {
+    flex-direction: column;
+    bottom: 0;
+    gap: 10px;
+    align-items: start;
+    justify-content: flex-end;
+    width: 100%;
+}
+  .home-hero-section {
+    padding: 20px 0px 40px;
+}
+.home-hero-card-text-arrow h3 {
+  line-height: 41.2px;
+}
+.home-hero-card {
+  height: 250px;
+}
+.home-hero-card-wrapper {
+  gap: 18px;
+  margin: 35px 0px 12px;
+}
+.text-col {
+  gap: 16px;
+}
+.img-col-area {
+  height: 250px;
+}
+.book-a-demo-area {
+  height: 350px;
+}
+.footer-logo-area {
+  width: 218px;
+  height: 62px;
+}
+.footer-menu-col {
+  gap: 15px;
+}
+.footer-mail-copywrite {
+  gap: 10px;
+
+}
+.footer-menu-col a {
+  font-size: 15px;
+  line-height:normal;
+}
+  /* index.html 992 end */
+
+  /* aboutUs.html 992 start */
+  .about-us-why-choose-section .why-choose-content-wrapper ul li {
+    padding: 10px;
+}
+.team-member-img-area {
+  height: 310px;
+}
+.team-member-name {
+  line-height: 26.48px;
+}
+.about-us-hero-section .book-a-demo-area p {
+  font-size: 15px;
+  line-height: normal;
+}
+.about-us-hero-section .book-a-demo-area {
+  gap: 6px;
+}
+.team-member-wrapper {
+  grid-template-columns: repeat(1, 1fr);
+}
+.our-product-section .common-heading {
+  font-size: 20px;
+  line-height: 33.36px;
+}
+  /* aboutUs.html 992 end */
+  .form-lower label {
+    font-size: 16px;
+}
+.tm-counter-content-wrapper {
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 10px;
+}
+.line-svg svg{
+  width: 70px;
+}
+.line-svg {
+display: none;
+}
+    .breakdown-img-area{
+      width: 100%;
+      height: 100%;
+    }
+.breakdown-img-area img{
+  width: 130px;
+  height: 130px;
+}
+  .breakdown-img-area img{
+    width: 100px;
+    height: 100px;
+  }
+  .breakdown-text-wrapper h4 {
+    font-size: 24px;
+    line-height: 32.24px;
+}
+.breakdown-text-wrapper p {
+  font-size: 16px;
+  line-height: 26.52px;
+}
+.demo-card-item .demo-card-img-area {
+  height: 300px;
+}
+.demo-card-text h2 {
+  line-height: 40.2px;
+}
+.demo-hero-card-wrapper {
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+.demo-card-text {
+gap: 15px;
+bottom: 33px;
+padding: 0px 28px;
+}
+.third-demo-card-text{
+flex-direction: column !important;
+}
+.what-customer-say-section{
+padding: 20px;
+padding-right: 20px;
+}
+.footer-section {
+grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+gap: 30px;
+margin-top: 30px;
+}
+.footer-col{
+align-items: center;
+}
+.footer-col:nth-child(2){
+order: 3;
+grid-column: 1/-1;
+}
+.common-form-space {
+padding: 23px;
+border-radius: 12px;
+}
+.tm-checkbox-wrapper {
+gap: 10px;
+}
+.form-input-wrapper{
+flex-direction: column;
+}
+.form-input-wrapper .w-50{
+width: 100% !important;
+}
+.form-lower .form-control {
+padding: 12px;
+border-radius: 12px;
+}
+.speck-directly-card-wrapper {
+grid-template-columns: repeat(1, 1fr);
+gap: 15px;
+}
+.countdown-section {
+padding: 30px 0px;
+}
+.common-conversion-col-1 {
+padding: 15px;
+height: 427px;
+}
+.conversion-img-area img{
+height: 100%;
+width: 100%;
+}
+.conversion-rate-content {
+gap: 40px;
+flex-direction: column;
+
+}
+.conversion-rates-text .common-heading,
+.conversion-rates-text .common-para{
+text-align: center;
+}
+.rates-des {
+margin-top: 22px;
+gap: 32px;
+flex-direction: column;
+}
+.engagement-breakdown-wrapper {
+display: grid;
+grid-template-columns: repeat(1,1fr);
+gap: 10px;
+}
+.home-hero-card-text-arrow {
+  padding: 25px;
+}
+.home-carousel-item {
+  padding: 20px;
+  gap: 30px;
+}
+.menu-area {
+  gap: 20px !important;
+}
+.tm-checkbox {
+  padding: 20px;
+  display: flex;
+}
+.speak-card-item {
+  padding: 20px;
+  gap: 10px;
+}
+.tm-checkbox label {
+  font-size: 14px;
+}
+.dashboard-img-area {
+  border-radius: 0px;
+}
+.tm-counter-value, .tm-plus {
+  line-height: 30px;
+}
+.third-demo-card-text{
+  flex-direction: column !important;
+}
+.demo-card-text{
+  padding:0px 20px;
+}
+.demo-index-section .book-a-demo-area-2 {
+  gap: 25px;
+}
+}
